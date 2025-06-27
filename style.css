@@ -71,9 +71,27 @@ nav ul{
   font-style: normal;
 
 }
+
+.info{
+    font-size : 28px;
+    font-family: roboto-condensed;
+}
 .img-box img{
     height: 120px;
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+#reset{
+ margin: 20px;
+ padding: 7px 14px;
+ background-color: rgba(3, 92, 83, 0.799);
+ color: white;
+ border-radius: 7px;
+ cursor: pointer;
+ font-family: Roboto;
+ font-size:15px;
+ font-weight: 550;
 }
 
 /* .br-0{
